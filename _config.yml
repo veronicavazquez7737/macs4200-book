@@ -1,0 +1,16 @@
+# Book settings
+title: MA/CS 4200 Cryptography
+author: Taylor Gibson, NCSSM
+copyright: '2020'
+logo: images/logo/ncssm-logo.jpg
+
+execute:
+  execute_notebooks: 'off'
+
+html:
+  google_analytics_id: 'UA-145947663-1'
+  home_page_in_navbar: true
+
+latex:
+  latex_documents:
+    targetname: macs4200book.tex

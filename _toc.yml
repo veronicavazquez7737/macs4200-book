@@ -1,0 +1,85 @@
+file: chapters/frontmatter
+numbered: true
+
+sections:
+- file: chapters/01/introduction
+  sections:
+  - file: chapters/01/1/warmup
+    sections:
+    - file: chapters/01/1/1/terminology
+    - file: chapters/01/1/2/intro-cryptanalysis
+    - file: chapters/01/1/3/steganography
+    - file: chapters/01/1/4/formatting
+  - file: chapters/01/2/types-of-cryptography
+- file: chapters/02/classical-transposition
+  sections:
+  - file: chapters/02/1/reverse-cipher
+  - file: chapters/02/2/railfence-cipher
+  - file: chapters/02/3/route-cipher
+  - file: chapters/02/4/atbash-cipher
+- file: chapters/03/intro-to-jupyter
+  sections:
+  - file: chapters/03/1/opening-a-notebook
+  - file: chapters/03/2/intro-to-python
+    sections:
+    - file: chapters/03/2/1/mathematical-operations
+    - file: chapters/03/2/2/data-types
+    - file: chapters/03/2/3/variables
+    - file: chapters/03/2/4/string-operations
+    - file: chapters/03/2/5/comparisons
+    - file: chapters/03/2/6/conditional-statements
+    - file: chapters/03/2/7/programming-reverse
+  - file: chapters/03/3/intro-to-loops
+    sections:
+    - file: chapters/03/3/1/while-loops
+    - file: chapters/03/3/2/for-loops
+  - file: chapters/03/4/functions
+  - file: chapters/03/5/programming-railfence
+- file: chapters/04/classical-substitution
+  sections:
+  - file: chapters/04/1/general-substitution
+  - file: chapters/04/2/caesar-cipher
+  - file: chapters/04/3/modular-arithmetic
+  - file: chapters/04/4/caesar-revisited
+  - file: chapters/04/5/multiplicative-cipher
+  - file: chapters/04/6/affine-cipher
+- file: chapters/05/intro-to-intermediate-python
+  sections:
+  - file: chapters/05/1/python-shortcuts
+  - file: chapters/05/2/lists
+  - file: chapters/05/3/file-io
+  - file: chapters/05/4/programming-caesar
+  - file: chapters/05/5/modules
+- file: chapters/06/intro-to-cryptanalysis
+  sections:
+  - file: chapters/06/1/brute-force
+  - file: chapters/06/2/frequency-analysis
+  - file: chapters/06/3/solving-congruences
+  - file: chapters/06/4/chi-squared-scoring
+- file: chapters/07/intro-to-polyalphabetic
+  sections:
+  - file: chapters/07/1/tabula-recta
+  - file: chapters/07/2/trithemius-cipher
+  - file: chapters/07/3/vigenere-cipher
+  - file: chapters/07/4/autokey-cipher
+- file: chapters/08/polyalphabetic-cryptanalysis
+  sections:
+  - file: chapters/08/1/identifying-polyalphabetic
+  - file: chapters/08/2/cracking-trithemius
+  - file: chapters/08/3/kasiski-test
+  - file: chapters/08/4/find-keylength-with-IC
+  - file: chapters/08/5/determining-keyword
+- file: chapters/09/intro-to-polygraphic
+- file: chapters/10/intro-to-binary
+  sections:
+  - file: chapters/10/1/positional-number-systems
+  - file: chapters/10/2/text-to-binary
+  - file: chapters/10/3/binary-operations
+  - file: chapters/10/4/lfsr
+  - file: chapters/10/5/lfsr-security
+  - file: chapters/10/6/lfsr-sum
+- file: chapters/11/intro-to-public-key
+  sections:
+  - file: chapters/11/1/kidrsa
+  - file: chapters/11/2/cracking-kidrsa
+  - file: chapters/11/3/rsa
