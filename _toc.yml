@@ -1,7 +1,9 @@
-file: chapters/frontmatter
-numbered: true
+format: jb-book
+root: frontmatter
+defaults:
+  numbered: true
 
-sections:
+chapters:
 - file: chapters/01/introduction
   sections:
   - file: chapters/01/1/warmup
