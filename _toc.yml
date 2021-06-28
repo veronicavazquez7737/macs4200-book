@@ -1,7 +1,7 @@
 format: jb-book
 root: frontmatter
 options:
-  numbered: true
+  numbered: 2
   
 chapters:
 - file: chapters/01/introduction
