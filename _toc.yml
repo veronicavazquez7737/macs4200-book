@@ -85,3 +85,10 @@ chapters:
   - file: chapters/11/1/kidrsa
   - file: chapters/11/2/cracking-kidrsa
   - file: chapters/11/3/rsa
+- file: chapters/12/error-dectecting-and-correcting-codes
+  sections:
+  - file: chapters/12/1/parity
+  - file: chapters/12/2/hamming-distance
+  - file: chapters/12/3/error-detecting-correcting-codes
+  - file: chapters/12/4/isbn-numbers
+  - file: chapters/12/5/hamming-7-4
